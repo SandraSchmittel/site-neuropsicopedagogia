@@ -31,11 +31,11 @@ questions.forEach(question => {
     });
 });
 
-document.querySelectorAll('.servico').forEach(servico => {
-    servico.addEventListener('click', () => {
-        alert(`Você clicou em: ${servico.querySelector('h3').innerText}`);
-    });
-});
+// document.querySelectorAll('.servico').forEach(servico => {
+//     servico.addEventListener('click', () => {
+//         alert(`Você clicou em: ${servico.querySelector('h3').innerText}`);
+//     });
+// });
 
 function toggleContent(id) {
     const conteudo = document.getElementById(id);
